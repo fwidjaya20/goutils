@@ -4,7 +4,20 @@ The utilities for golang.
 **Table of Content**
 1. [List](#list)
     - [Create a List](#create-a-list)
-2. ...
+    - [Clear](#clear)
+    - [Count](#count)
+    - [ElementAt](#elementat)
+    - [Filter](#filter)
+    - [Find](#find)
+    - [FindIndex](#findindex)
+    - [ForEach](#foreach)
+    - [Get](#get)
+    - [Map](#map)
+    - [Pop](#pop)
+    - [Push](#push)
+    - [Shift](#shift)
+    - [Slice](#slice)
+    - [Some](#some)
 
 ## List
 List are like objects whose prototype has methods to perform a traversal and mutation operations.
@@ -19,12 +32,6 @@ type Person struct {
     Gender  string
 }
 foo := NewList(Person{})
-```
-
-##### Clear
-> The `Clear()` method removes the elements stored.
-```gotemplate
-foo.Clear()
 ```
 
 ##### Clear
